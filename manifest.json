@@ -1,0 +1,16 @@
+{
+	"update_url": "https://clients2.google.com/service/update2/crx",
+
+	"version": "0.0.0",
+	"name": "Ace IDE for Agregore",
+	"manifest_version": 1,
+	"short_name": "agregore-ace-ide",
+	"description": "Ace IDE for Agregore, using dat-fetch",
+	"permissions": ["tabs"],
+	"homepage_url": "https://github.com/KyGost/agregore-ace-ide",
+	"offline_enabled": true,
+	"browser_action": {
+			"default_icon": "icons/icon.png",
+			"default_popup": "ide/index.html"
+	}
+}
